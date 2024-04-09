@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Zigzag Pattern</title>
+    <script defer src="script.js"></script>
+</head>
+<body style="background: grey;">
+    <div style="padding: 20px; text-align: center;">
+        <label for="zigzagSlider">Zigzag Steps: <span id="stepsLabel">16</span></label>
+        <input type="range" id="zigzagSlider" min="1" max="30" value="16">
+    </div>
+    <div style="padding: 20px; text-align: center;">
+        <label for="speedSlider">Redraw Speed: <span id="speedLabel">0</span> (times per second)</label>
+        <input type="range" id="speedSlider" min="0" max="60" value="0">
+    </div>
+    <canvas id="canvas"></canvas>
+</body>
+</html>
